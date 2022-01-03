@@ -1,0 +1,39 @@
+.services {
+  margin-top: 50px;
+  &__main {
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+
+    .line {
+      height: 1px;
+      max-width: 60px;
+      background: #000;
+      margin: 30px auto;
+    }
+    p {
+      color: #7d7987;
+      margin-bottom: 60px;
+    }
+  }
+  &__desc {
+      margin: 20px;
+    .info {
+      margin: 0 auto;
+      padding: 25px 30px 20px 25px;
+      box-shadow: 10px 40px 50px 0px #e5e9f6;
+      transition: 0.3s ease;
+      cursor: pointer;
+      &:hover {
+        transform: scale(.95);
+      }
+      h3 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #7d7987;
+      }
+    }
+  }
+}
