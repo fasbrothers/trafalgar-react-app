@@ -6,9 +6,9 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light header container ">
       <div className="header__image">
-        <a className="navbar-brand " href="#">
+        <Link to="/" className="navbar-brand">
           <img src="/image/logo.png" alt="logo" />
-        </a>
+        </Link>
       </div>
       <button
         className="navbar-toggler"
@@ -24,23 +24,13 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 header__links">
           <li className="nav-item">
-            <Link to="/" className="nav-link active">
+            <Link to="/" className="nav-link">
               Home
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/services" className="nav-link">
               Services
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
-              About us
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Testimonials
             </Link>
           </li>
           <li className="nav-item">
